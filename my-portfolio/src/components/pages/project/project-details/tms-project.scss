@@ -1,0 +1,28 @@
+.project-details {
+    .project-image img {
+        max-width: 500px;
+        border-radius: 1rem;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .project-image img:hover {
+        transform: scale(1.03);
+    }
+
+    .underline {
+        width: 200px;
+        height: 4px;
+        background-color: #000;
+        margin: 0 auto 2rem auto;
+    }
+
+    .back-navigation {
+        cursor: pointer;
+        color: #007bff;
+        font-weight: 500;
+    }
+
+    .back-navigation:hover {
+        text-decoration: underline;
+    }
+}
